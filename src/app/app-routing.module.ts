@@ -20,8 +20,8 @@ const routes: Routes = [
   { path: 'memorial', component: MemorialPageComponent},
   { path: 'user', component: UserPageComponent},
   { path: 'allies', component: AlliesComponent},
-  { path: '**', component: NotFoundPageComponent},
   { path: 'service', component: ServicePageComponent},
+  { path: '**', component: NotFoundPageComponent},
 ];
 
 @NgModule({
