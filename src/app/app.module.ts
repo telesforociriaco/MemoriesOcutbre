@@ -16,6 +16,15 @@ import { ServicePageComponent } from './components/service-page/service-page.com
 import { AlliesComponent } from './components/allies/allies.component';
 import { MemorialPageComponent } from './components/memorial-page/memorial-page.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
+import { MemoPageComponent } from './components/memo-page/memo-page.component';
+import { RemPageComponent } from './components/rem-page/rem-page.component';
+import { AsidebarComponent } from './components/asidebar/asidebar.component';
+import { ContactPageComponent } from './components/contact-page/contact-page.component';
+import { MmemoriPageComponent } from './components/mmemori-page/mmemori-page.component';
+import { LettersPageComponent } from './components/letters-page/letters-page.component';
+import { TestPageComponent } from './components/test-page/test-page.component';
+import { TreePageComponent } from './components/tree-page/tree-page.component';
+import { HomenPageComponent } from './components/homen-page/homen-page.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +38,16 @@ import { AboutPageComponent } from './components/about-page/about-page.component
     ServicePageComponent,
     AlliesComponent,
     MemorialPageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    MemoPageComponent,
+    RemPageComponent,
+    AsidebarComponent,
+    ContactPageComponent,
+    MmemoriPageComponent,
+    LettersPageComponent,
+    TestPageComponent,
+    TreePageComponent,
+    HomenPageComponent
   ],
   imports: [
     BrowserModule,

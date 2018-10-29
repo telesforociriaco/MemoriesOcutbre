@@ -8,9 +8,6 @@
 	#derecha {
 		padding-right: 2%;;
 	}
-	#derecha img {
-		padding-left: 20%;;
-	}
 
 	main{
 		background-color: rgb(228, 222, 222);
@@ -34,21 +31,23 @@
 
 	}
 
-	
 	form input[type=text] {
 		background: transparent;
-		border: none;
-		border-bottom: 1px solid #a8a7a7;
-		width: 75%;
+    border: none;
+	border-bottom: 1px solid #000000;
+	width: 50%;
 	}
-	
+
 
 	/* ASIDE */
 	aside {
 		float: right;
 	}
 
-	
+	aside input[type=text] {
+		border-bottom: 3px solid #000000;
+		
+	}
 
 
 	/* ASIDE FIN */
@@ -195,39 +194,3 @@
 		justify-content: center;
 	}
 
-	/* fieldset texto area */
-	
-	input {
-		margin-right:6px; 
-	}
-	
-
-	/* place Holder */
-	::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-		color: #d8d5d5;
-		opacity: 1; /* Firefox */
-	}
-
-	#guardar {
-		position: relative;
-		float: right;
-	}
-	.usuario img {
-		padding-left: 2px;
-		margin: 5px solid black;
-		float: left;
-		height: 100px;
-		width: auto;
-	}
-	.usuarioMemo img {
-		float: left;
-		height: 100px;
-		width: auto;
-	}
-
-
-	.memoInfo {
-		background-color: #ffffff;
-		height: 600px;
-		width: 50%;
-	}
