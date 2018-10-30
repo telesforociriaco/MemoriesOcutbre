@@ -7,37 +7,41 @@
 
       <form class="formulario">
           <fieldset>
+            <div class="izquierda">
+                <aside class="derecha">
+                    <label>Destinario:</label><br>
+                    <input  id ="destinario" placeholder="Nombre del destinario" />
+                    <br>
+                    <label>Correo</label><br>
+                    <input  id ="mycorreo" placeholder="Correo" />
+                  </aside>
 
-            <div>
-              <div class="izquierda">
                   <img src="../../../assets/mmUsuario.png" alt="#">
                   <br>
-                  <label>Album</label>
-                  <input  id ="myfotos" placeholder="Fotos" />
-              </div>
-              <aside class="derecha">
-                <label>Destinario:</label>
-                <input  id ="destinario" placeholder="Nombre del destinario" />
-                <br>
-                <label>Correo</label>
-                <input  id ="mycorreo" placeholder="Correo" />
-              </aside>
+                  <br>
+
+                  <input  id ="myfotos" placeholder="Album fotos" />
+
+
           </div>
 
           <div>
-            <label>Encabezamiento</label>
+            <br>
             <input  id="encabezabiento" placeholder="Encabezabiento"/>
             <br>
-
-            <label>Introduccion</label>
-            <input id="inroduccion" placeholder="Escribe aqui"/>
             <br>
-            <label >Cuerpo</label>
-            <textarea placeholder="cuerpo" id="cuerpo" cols="30" rows="10"></textarea>
+
+
+            <input id="introduccion" placeholder="introduccion"/>
+            <br>
+            <br>
+
+            <textarea placeholder="cuerpo" id="cuerpo" cols="50" rows="10"></textarea>
           </div>
           </fieldset>
         </form>
 
+        <br>
         <br>
         <br>
           <button class="btn btn-primary btn-lg active" name="guardar" id="guardar"><i  id="guardar" class="far fa-save fa-2x" ></i></button>
