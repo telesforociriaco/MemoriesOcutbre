@@ -25,6 +25,7 @@ import { LettersPageComponent } from './components/letters-page/letters-page.com
 import { TestPageComponent } from './components/test-page/test-page.component';
 import { TreePageComponent } from './components/tree-page/tree-page.component';
 import { HomenPageComponent } from './components/homen-page/homen-page.component';
+import { HomenavbarComponent } from './components/homenavbar/homenavbar.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { HomenPageComponent } from './components/homen-page/homen-page.component
     LettersPageComponent,
     TestPageComponent,
     TreePageComponent,
-    HomenPageComponent
+    HomenPageComponent,
+    HomenavbarComponent
   ],
   imports: [
     BrowserModule,
