@@ -17,6 +17,7 @@ import { HomenPageComponent } from './components/homen-page/homen-page.component
 import { MmemoriPageComponent } from './components/mmemori-page/mmemori-page.component';
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
 import { LettersPageComponent } from './components/letters-page/letters-page.component';
+import { DirectorioPageComponent } from './components/directorio-page/directorio-page.component';
 
 
 
@@ -37,6 +38,7 @@ const routes: Routes = [
   { path: 'mmemori', component: MmemoriPageComponent},
   { path: 'contact', component: ContactPageComponent},
   { path: 'letters', component: LettersPageComponent},
+  { path: 'directorio', component: DirectorioPageComponent},
 
   { path: '**', component: NotFoundPageComponent},
 ];
