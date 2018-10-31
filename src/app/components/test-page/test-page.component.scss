@@ -1,0 +1,35 @@
+.testInfo {
+  background-color: #ffffff;
+  height: 210px;
+  width: 70%;
+  padding: 5px;
+}
+div > aside {
+  i {
+      padding-right: 5px;
+  }
+}
+
+
+.fas {
+  margin-top: 1em;
+  font-size: 1em;
+  color: #50a9b2;
+}
+.brd {
+  border: 1px solid #50a9b2;
+  border-left: 2em solid #50a9b2;
+
+}
+.brd1 {
+  border: 1px solid gray;
+  border-left: 2em solid gray;
+
+}
+.testAlign {
+  text-align: right;
+  display: flex;
+}
+.testUsuario {
+  margin-top: 1em;
+}
