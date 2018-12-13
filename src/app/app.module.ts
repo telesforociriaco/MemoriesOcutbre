@@ -26,6 +26,10 @@ import { TestPageComponent } from './components/test-page/test-page.component';
 import { TreePageComponent } from './components/tree-page/tree-page.component';
 import { HomenPageComponent } from './components/homen-page/homen-page.component';
 import { HomenavbarComponent } from './components/homenavbar/homenavbar.component';
+import { DirectorioPageComponent } from './components/directorio-page/directorio-page.component';
+import { CatalogoPageComponent } from './components/catalogo-page/catalogo-page.component';
+import { ConmemoracionPageComponent } from './components/conmemoracion-page/conmemoracion-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +53,11 @@ import { HomenavbarComponent } from './components/homenavbar/homenavbar.componen
     TestPageComponent,
     TreePageComponent,
     HomenPageComponent,
-    HomenavbarComponent
+    HomenavbarComponent,
+    DirectorioPageComponent,
+    CatalogoPageComponent,
+    ConmemoracionPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
