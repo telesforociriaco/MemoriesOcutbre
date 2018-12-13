@@ -29,6 +29,7 @@ import { HomenavbarComponent } from './components/homenavbar/homenavbar.componen
 import { DirectorioPageComponent } from './components/directorio-page/directorio-page.component';
 import { CatalogoPageComponent } from './components/catalogo-page/catalogo-page.component';
 import { ConmemoracionPageComponent } from './components/conmemoracion-page/conmemoracion-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { ConmemoracionPageComponent } from './components/conmemoracion-page/conm
     HomenavbarComponent,
     DirectorioPageComponent,
     CatalogoPageComponent,
-    ConmemoracionPageComponent
+    ConmemoracionPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
