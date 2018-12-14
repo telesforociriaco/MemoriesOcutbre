@@ -1017,7 +1017,10 @@ html[xmlns] .slider-wrap {display: block;}
 	padding-top: 100px;
 }
 
-#header.full-header { border-bottom-color: #EEE; }
+#header.full-header { 
+	border-bottom-color: #EEE;
+	 position: fixed;
+	}
 
 body.homeStretched #header.full-header .container {
 	width: 100%;
